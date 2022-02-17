@@ -6,7 +6,7 @@ _repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $USERBOT_REPO == "PANDA_USERBOT" ]]
     then
-        echo "https://github.com/ilhammansiz/PandaX_Userbot/archive/PandaUserbot.zip"
+        echo "https://github.com/ilham77mansiz/PandaX_Userbot/archive/PandaUserbot.zip"
     elif [[ $USERBOT_REPO =~ $regex ]]
     then
         if [[ $USERBOT_REPO_BRANCH ]]
@@ -16,7 +16,7 @@ _repolink () {
             echo "${USERBOT_REPO}/archive/PandaUserbot.zip"
         fi
     else
-        echo "https://github.com/ilhammansiz/PandaX_Userbot/archive/PandaUserbot.zip"
+        echo "https://github.com/ilham77mansiz/PandaX_Userbot/archive/PandaUserbot.zip"
     fi
 }
 
